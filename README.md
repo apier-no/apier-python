@@ -66,7 +66,7 @@ The package is not on PyPI yet. Install it from this repository:
 pip install "git+https://github.com/apier-no/apier-python.git"
 ```
 
-The distribution is named `apier-no` and the import name is `apier`.
+The distribution is named `apier-no` and the import name is `apier`. The package named `apier` on PyPI is an unrelated third-party package; do not install it.
 
 ## Usage
 
