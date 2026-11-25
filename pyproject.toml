@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "apier-no"
 dynamic = ["version"]
-description = "Official Python client for Apier — Norwegian compliance infrastructure API."
+description = "Python client for Apier: Norwegian company verification and signing authority (signaturrett, prokura) from Brønnøysundregistrene."
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
@@ -16,9 +16,11 @@ authors = [
 keywords = [
   "apier",
   "norway",
-  "altinn",
   "brreg",
-  "skatteetaten",
+  "enhetsregisteret",
+  "signaturrett",
+  "prokura",
+  "kyb",
   "compliance",
   "regulatory",
   "api",
@@ -52,8 +54,8 @@ dev = [
 [project.urls]
 Homepage = "https://www.apier.no"
 Documentation = "https://www.apier.no/docs"
-Issues = "https://github.com/PowerLaunch/apier-python/issues"
-Source = "https://github.com/PowerLaunch/apier-python"
+Issues = "https://github.com/apier-no/apier-python/issues"
+Source = "https://github.com/apier-no/apier-python"
 
 [tool.hatch.version]
 path = "src/apier/_version.py"
