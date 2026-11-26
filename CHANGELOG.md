@@ -29,4 +29,4 @@ Initial release.
 - Release CI verifies the git tag matches `_version.py` before publishing.
 - Wheel + sdist surface grepped for token-shaped strings before publish.
 
-[0.1.0]: https://github.com/PowerLaunch/apier-python/releases/tag/v0.1.0
+[0.1.0]: https://github.com/apier-no/apier-python/releases/tag/v0.1.0
