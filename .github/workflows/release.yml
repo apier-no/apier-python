@@ -13,7 +13,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     environment: pypi
-    if: github.repository == 'PowerLaunch/apier-python'   # fork-publish guard
+    if: github.repository == 'apier-no/apier-python'   # fork-publish guard
     steps:
       - uses: actions/checkout@v7
         with:
